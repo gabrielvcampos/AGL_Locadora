@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Relatorio" targetNamespace="http://tempuri.org/Relatorio.xsd" xmlns:mstns="http://tempuri.org/Relatorio.xsd" xmlns="http://tempuri.org/Relatorio.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Relatorio" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Relatorio" msprop:Generator_UserDSName="Relatorio">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RelatorioDataTable" msprop:Generator_TableClassName="RelatorioDataTableDataTable" msprop:Generator_TableVarName="tableRelatorioDataTable" msprop:Generator_TablePropName="RelatorioDataTable" msprop:Generator_RowDeletingName="RelatorioDataTableRowDeleting" msprop:Generator_RowChangingName="RelatorioDataTableRowChanging" msprop:Generator_RowEvHandlerName="RelatorioDataTableRowChangeEventHandler" msprop:Generator_RowDeletedName="RelatorioDataTableRowDeleted" msprop:Generator_UserTableName="RelatorioDataTable" msprop:Generator_RowChangedName="RelatorioDataTableRowChanged" msprop:Generator_RowEvArgName="RelatorioDataTableRowChangeEvent" msprop:Generator_RowClassName="RelatorioDataTableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="_x0020_Tipo_Relatorio" msprop:Generator_ColumnVarNameInTable="column_Tipo_Relatorio" msprop:Generator_ColumnPropNameInRow="_Tipo_Relatorio" msprop:Generator_ColumnPropNameInTable="_Tipo_RelatorioColumn" msprop:Generator_UserColumnName=" Tipo_Relatorio" type="xs:string" minOccurs="0" />
+              <xs:element name="Cod_Aluguel" msprop:Generator_ColumnVarNameInTable="columnCod_Aluguel" msprop:Generator_ColumnPropNameInRow="Cod_Aluguel" msprop:Generator_ColumnPropNameInTable="Cod_AluguelColumn" msprop:Generator_UserColumnName="Cod_Aluguel" type="xs:string" minOccurs="0" />
+              <xs:element name="Cod_Cli" msprop:Generator_ColumnVarNameInTable="columnCod_Cli" msprop:Generator_ColumnPropNameInRow="Cod_Cli" msprop:Generator_ColumnPropNameInTable="Cod_CliColumn" msprop:Generator_UserColumnName="Cod_Cli" type="xs:string" minOccurs="0" />
+              <xs:element name="Cod_Func" msprop:Generator_ColumnVarNameInTable="columnCod_Func" msprop:Generator_ColumnPropNameInRow="Cod_Func" msprop:Generator_ColumnPropNameInTable="Cod_FuncColumn" msprop:Generator_UserColumnName="Cod_Func" type="xs:string" minOccurs="0" />
+              <xs:element name="Cod_Carro" msprop:Generator_ColumnVarNameInTable="columnCod_Carro" msprop:Generator_ColumnPropNameInRow="Cod_Carro" msprop:Generator_ColumnPropNameInTable="Cod_CarroColumn" msprop:Generator_UserColumnName="Cod_Carro" type="xs:string" minOccurs="0" />
+              <xs:element name="Cod_Seguro" msprop:Generator_ColumnVarNameInTable="columnCod_Seguro" msprop:Generator_ColumnPropNameInRow="Cod_Seguro" msprop:Generator_ColumnPropNameInTable="Cod_SeguroColumn" msprop:Generator_UserColumnName="Cod_Seguro" type="xs:string" minOccurs="0" />
+              <xs:element name="Condutor_Principal" msprop:Generator_ColumnVarNameInTable="columnCondutor_Principal" msprop:Generator_ColumnPropNameInRow="Condutor_Principal" msprop:Generator_ColumnPropNameInTable="Condutor_PrincipalColumn" msprop:Generator_UserColumnName="Condutor_Principal" type="xs:string" minOccurs="0" />
+              <xs:element name="Data_Retirada" msprop:Generator_ColumnVarNameInTable="columnData_Retirada" msprop:Generator_ColumnPropNameInRow="Data_Retirada" msprop:Generator_ColumnPropNameInTable="Data_RetiradaColumn" msprop:Generator_UserColumnName="Data_Retirada" type="xs:string" minOccurs="0" />
+              <xs:element name="Data_Entrega" msprop:Generator_ColumnVarNameInTable="columnData_Entrega" msprop:Generator_ColumnPropNameInRow="Data_Entrega" msprop:Generator_ColumnPropNameInTable="Data_EntregaColumn" msprop:Generator_UserColumnName="Data_Entrega" type="xs:string" minOccurs="0" />
+              <xs:element name="Horaretirada" msprop:Generator_ColumnVarNameInTable="columnHoraretirada" msprop:Generator_ColumnPropNameInRow="Horaretirada" msprop:Generator_ColumnPropNameInTable="HoraretiradaColumn" msprop:Generator_UserColumnName="Horaretirada" type="xs:string" minOccurs="0" />
+              <xs:element name="HoraEntrega" msprop:Generator_ColumnVarNameInTable="columnHoraEntrega" msprop:Generator_ColumnPropNameInRow="HoraEntrega" msprop:Generator_ColumnPropNameInTable="HoraEntregaColumn" msprop:Generator_UserColumnName="HoraEntrega" type="xs:string" minOccurs="0" />
+              <xs:element name="condicao_Entrega" msprop:Generator_ColumnVarNameInTable="columncondicao_Entrega" msprop:Generator_ColumnPropNameInRow="condicao_Entrega" msprop:Generator_ColumnPropNameInTable="condicao_EntregaColumn" msprop:Generator_UserColumnName="condicao_Entrega" type="xs:string" minOccurs="0" />
+              <xs:element name="Preco_Final" msprop:Generator_ColumnVarNameInTable="columnPreco_Final" msprop:Generator_ColumnPropNameInRow="Preco_Final" msprop:Generator_ColumnPropNameInTable="Preco_FinalColumn" msprop:Generator_UserColumnName="Preco_Final" type="xs:string" minOccurs="0" />
+              <xs:element name="Status_Aluguel" msprop:Generator_ColumnVarNameInTable="columnStatus_Aluguel" msprop:Generator_ColumnPropNameInRow="Status_Aluguel" msprop:Generator_ColumnPropNameInTable="Status_AluguelColumn" msprop:Generator_UserColumnName="Status_Aluguel" type="xs:string" minOccurs="0" />
+              <xs:element name="Preco_Final_Real" msprop:Generator_ColumnVarNameInTable="columnPreco_Final_Real" msprop:Generator_ColumnPropNameInRow="Preco_Final_Real" msprop:Generator_ColumnPropNameInTable="Preco_Final_RealColumn" msprop:Generator_UserColumnName="Preco_Final_Real" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
