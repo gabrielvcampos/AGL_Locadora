@@ -1,0 +1,6 @@
+﻿Due to the limitations of the supported zip file format, the following file(s) had to be renamed.
+
+Original File Name  ->  New File Name
+Documentos/Descrição - TCC.docx -> Documentos/File1.docx
+Documentos/Descrição do Sistema.doc -> Documentos/File2.doc
+Documentos/Lista de Informações.doc -> Documentos/File3.doc

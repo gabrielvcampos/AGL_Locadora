@@ -1,0 +1,14 @@
+    Dim car_HodoAnterior As String
+    Dim car_HodoAtual As String
+    Dim car_HodoUltAluguel As String
+    Dim car_qtdeCombusAnterior As String   c cc
+
+
+    Dim car_qtdeCOmbusAtual As String
+    Dim car_qtdeCombusUltAluguel As String
+    Dim car_Obs As String
+
+
+
+
+daniel

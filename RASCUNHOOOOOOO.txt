@@ -1,0 +1,4 @@
+c:\Fotos
+c:\Fotos\Cliente
+C:\Fotos\Funcionario
+C:\Fotos|Carro

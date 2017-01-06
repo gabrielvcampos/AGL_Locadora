@@ -1,0 +1,6 @@
+02/03/2013 - Feito por ARthur
+	- WebCam capturando imagem perfeitamente
+	- Cadastro de Clientes Funcionando 
+	- Melhorias no form/ BD
+	- Quando for executar o projeto, antes executem todos os comandos do script !!!! Inclusive as stored procedures, mas
+	cuidado. tem umas comandos soltos. Temos q organizar o script!
